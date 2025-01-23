@@ -1,0 +1,32 @@
+###Lista de Clientes
+
+GET http://localhost:3000/clients
+
+###Obter informação de um cliente
+
+GET http://localhost:3000/clients/1
+
+
+###Atualizar informação de um cliente
+
+PATCH  http://localhost:3000/clients/1
+
+
+###Deletar informação de um cliente
+
+DELETE   http://localhost:3000/clients/1
+
+
+###Criar informação de um cliente
+
+POST   http://localhost:3000/clients/
+Content-Type: application/json
+
+{
+   "name": "Zee GameDev",
+   "cpf": "144.777",
+   "email": "zee@contato.com",
+   "dateofBirth":"1500-11-28",
+   "login":"zeeLindo",
+   "password":"205089"
+}
